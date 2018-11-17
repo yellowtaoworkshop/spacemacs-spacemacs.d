@@ -4,19 +4,19 @@
 
 init.el
 
-layers/
-  -- gavin/
-     -- config.el
-     -- packages.el
-     -- README.org
+layers/  
+  -- gavin/  
+     -- config.el  
+     -- packages.el  
+     -- README.org  
       
-snippets/
-  -- verilog-mode/
-     -- drv
-     -- info
+snippets/  
+  -- verilog-mode/  
+     -- drv  
+     -- info  
      
 ## CHANGES
 
 ### init.el:
-  1. make the comment bg to nil.
-     (spacemacs-theme-comment-bg nil)
+  1. make the comment bg to nil.  
+     (spacemacs-theme-comment-bg nil)  
