@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <a name="top"></a>
 <a href="http://spacemacs.org"><img src="https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg" alt="Made with Spacemacs"></a><a href="http://www.twitter.com/spacemacs"><img src="http://i.imgur.com/tXSoThF.png" alt="Twitter" align="right"></a><br>
 - - -
@@ -463,3 +464,7 @@ Thank you!
 [Bountysource]: https://salt.bountysource.com/teams/spacemacs
 [Source Code Pro]: https://github.com/adobe-fonts/source-code-pro
 [Spacemacs Shop]: https://shop.spreadshirt.com/spacemacs-shop
+=======
+# spacemacs-emacs.d
+spacemacs for .emacs.d
+>>>>>>> 3365db638de40e0d4089325a872fff394127dc50
