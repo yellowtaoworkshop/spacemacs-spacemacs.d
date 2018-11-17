@@ -465,6 +465,7 @@ Thank you!
 [Source Code Pro]: https://github.com/adobe-fonts/source-code-pro
 [Spacemacs Shop]: https://shop.spreadshirt.com/spacemacs-shop
 =======
-# spacemacs-emacs.d
-spacemacs for .emacs.d
->>>>>>> 3365db638de40e0d4089325a872fff394127dc50
+# my own spacemacs-emacs.d
+This emacs configuration is from spacemacs.
+I will change my configure base on this configuration
+In the first commit, there is nothing changed.
