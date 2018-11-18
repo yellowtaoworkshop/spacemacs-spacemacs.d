@@ -140,8 +140,8 @@ values."
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
-   dotspacemacs-default-font '("DejaVu Sans Mono"
-                               :size 19
+   dotspacemacs-default-font '("Consolas"
+                               :size 24
                                :weight normal
                                :foundry "PfEd"
                                :slant normal 
@@ -359,4 +359,4 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Consolas" :foundry "outline" :slant normal :weight normal :height 143 :width normal)))))
+)
