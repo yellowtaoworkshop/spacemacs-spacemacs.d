@@ -312,7 +312,7 @@ before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."  
 (setq configuration-layer--elpa-archives
       '(("melpa-cn" . "http://mirrors.163.com/elpa/melpa/")
-		("melpa-stable" . "http://mirrors.163.com/elpa/melpa-stable/")
+		    ("melpa-stable" . "http://mirrors.163.com/elpa/melpa-stable/")
         ("org-cn"   . "http://mirrors.163.com/elpa/org/")
         ("gnu-cn"   . "http://mirrors.163.com/elpa/gnu/")))
   )
