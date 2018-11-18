@@ -9,6 +9,11 @@ layers/
      -- config.el  
      -- packages.el  
      -- README.org  
+  
+  -- gavin-ui/  
+     -- config.el  
+     -- packages.el  
+     -- README.org  
       
 snippets/  
   -- verilog-mode/  
