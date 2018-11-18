@@ -309,7 +309,7 @@ It is called immediately after `dotspacemacs/init', before layer configuration
 executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
-`dotspacemacs/user-config' first."  
+`dotspacemacs/user-config' first."
 (setq configuration-layer--elpa-archives
       '(("melpa-cn" . "http://mirrors.163.com/elpa/melpa/")
         ("melpa-stable" . "http://mirrors.163.com/elpa/melpa-stable/")
@@ -326,6 +326,7 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   ;;(setq ns-use-srgb-colorspace )
   (setq powerline-default-separator 'arrow)
+  (blink-cursor-mode t)
   )
 
 
@@ -338,7 +339,6 @@ you should place your code here."
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector
    ["#0a0814" "#f2241f" "#67b11d" "#b1951d" "#4f97d7" "#a31db1" "#28def0" "#b2b2b2"])
- '(blink-cursor-mode nil)
  '(column-number-mode t)
  '(company-backends
    (quote
