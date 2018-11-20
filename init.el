@@ -46,10 +46,11 @@ values."
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
-     ;;spell-checking
+     spell-checking
      syntax-checking
      auto-completion
      gavin
+     gavin-ui
      ;; version-control
      )
    ;; List of additional packages that will be installed without being
@@ -141,7 +142,7 @@ values."
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("Consolas"
-                               :size 24
+                               :size 22
                                :weight normal
                                :foundry "PfEd"
                                :slant normal 
@@ -309,7 +310,7 @@ It is called immediately after `dotspacemacs/init', before layer configuration
 executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
-`dotspacemacs/user-config' first."  
+`dotspacemacs/user-config' first."
 (setq configuration-layer--elpa-archives
       '(("melpa-cn" . "http://mirrors.163.com/elpa/melpa/")
 		    ("melpa-stable" . "http://mirrors.163.com/elpa/melpa-stable/")
@@ -338,7 +339,6 @@ you should place your code here."
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector
    ["#0a0814" "#f2241f" "#67b11d" "#b1951d" "#4f97d7" "#a31db1" "#28def0" "#b2b2b2"])
- '(blink-cursor-mode nil)
  '(column-number-mode t)
  '(company-backends
    (quote
