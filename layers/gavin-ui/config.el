@@ -7,3 +7,6 @@
                                      ("\\<close\\>" . font-lock-builtin-face)
                                      ("\\<\\(or\\)\\>" . font-lock-keyword-face))) 
 
+;; add org TODO keywords
+(setq org-todo-keywords
+      '((sequence "TODO" "LEARNING" "|" "DONE" "REPORT")))
